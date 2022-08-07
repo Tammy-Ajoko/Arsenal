@@ -15,7 +15,7 @@ body{
 .wrapper{
     background-color: hsl(216, 50%, 16%);
     box-shadow: 5px 13px 5px 5px hsl(217, 50%, 9%);
-    max-width: 300px;
+    max-width: 350px;
     height: fit-content;
     margin:1rem
     margin-inline: auto;
