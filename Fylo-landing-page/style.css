@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans',serif;
+    font-weight: 400;
+}
+h1{
+
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+header{
+    font-family: 'Raleway',serif;
+    font-weight: 400;
+    margin: 50px;    
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav img{
+    width: 110px;
+}
+nav a:link{
+    color: hsl(238, 22%, 44%);
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 23px;
+}
+.part1 img{
+    width: 600px;
+    /* height: 400px; */
+}
+.part1 h1,p{
+    width: 650px;
+}
+.part1 h1{
+    /* font-size: 25px; */
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    margin: 50px 50px 180px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.text div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#email-field{
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gainsboro;
+}
+#btn{
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+}
+.large-img{
+    width: 500px;
+}
+.part2{
+    background-color: hsl(0, 0%, 97%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px 50px;
+    font-family: 'Raleway',serif;
+    font-weight: 400;
+    
+}
+.container-text,a{
+    font-size: 21px;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper h1{
+    margin: 0 0 15px;
+}
+.box{
+    background-color: #fff;
+    padding: 30px;
+    max-width: 380px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgb(141, 137, 137);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.box p{
+    width: 380px;
+}
+.wrapper a{
+    color: hsl(170, 45%, 43%);
+}
+.quotes{
+    width: 20px;
+    height: 20px;
+}
+.testimonial{
+    width: 40px;
+    border-radius: 20px;
+}
+.personal-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.part3{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding: 70px 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.part3-text{
+    font-family: 'Raleway',serif;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.part3-text p{
+    width: 550px;
+
+}
+.part3 form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#edge{
+    width: 500px;
+    padding: 13px;
+    box-sizing: border-box;
+    color: gainsboro;
+}
+#early{
+    width: 50%;
+    padding: 13px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* align-items: center; */
+}
+.sets{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.sets1{
+    width: 300px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+ul p{
+    font-size: 20px;
+
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.sets4 ul{
+    display: flex;
+    flex-direction: row;
+}
+.sets1 li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.sets1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.sets4 li{
+    border-radius: 40px;
+    border: 1px solid #fff;
+    padding: 6px;
+
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: hsla(224, 62%, 49%, 0.6);
+}
+#early:hover{
+    cursor: pointer;
+    background-color: hsla(224, 62%, 49%, 0.6);
+}
+.sets a:hover{
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
+}
+.sets i:hover{
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
+}
